@@ -21,7 +21,9 @@ This project provides a robust Python environment for data science, machine lear
 ### 1. Install Python 3.10.x
 Ensure that Python 3.10.x is installed on your system. Verify your Python version with:
 
-// python --version
+'''python
+python --version
+'''
 
 If you don't have Python 3.10.x, download and install it from the official Python website.
 
@@ -73,7 +75,7 @@ Refer to each library's documentation for further information. This setup provid
 ---
 
 ## Contributors
-[Xedygen]
+Xedygen
 
 ---
 
