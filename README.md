@@ -73,7 +73,7 @@ Refer to each library's documentation for further information. This setup provid
 ---
 
 ## Contributors
-[Your Name] - [Your Role]
+[Xedygen]
 
 ---
 
