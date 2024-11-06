@@ -21,7 +21,7 @@ This project provides a robust Python environment for data science, machine lear
 ### 1. Install Python 3.10.x
 Ensure that Python 3.10.x is installed on your system. Verify your Python version with:
 
-```python
+```bash
 python --version
 ```
 
@@ -30,35 +30,48 @@ If you don't have Python 3.10.x, download and install it from the official Pytho
 ### 2. Set Up a Virtual Environment (Recommended)
 To manage dependencies separately, create a virtual environment:
 
-// python -m venv env
-
+```bash
+python -m venv env
+```
 Activate the virtual environment:
 
 - **On Windows**:
-// .\env\Scripts\activate
+```python
+.\env\Scripts\activate
+```
 
 - **On macOS and Linux**:
-// source env/bin/activate
+```bash
+source env/bin/activate
+```
 
 ### 3. Install Packages from `requirements.txt`
 With the virtual environment activated, install all required packages using `requirements.txt`:
 
-// pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
 
 ### 4. Additional Setup for Specific Libraries
 Some libraries require additional setup steps:
 
 - **Playwright**: Install browser binaries after installing Playwright:
-// playwright install
+```bash
+playwright install
+```
 
 - **StanfordNLP Models**: Download necessary language models:
 
-// import stanfordnlp  
-// stanfordnlp.download('en')  // Replace 'en' with your target language
+```python
+import stanfordnlp  
+stanfordnlp.download('en')  //Replace 'en' with your target language
+```
 
 - **AWS Credentials for boto3**: If using `boto3` to interact with AWS services, set up your AWS credentials:
 
-// aws configure
+```bash
+aws configure
+```
 
 - **Selenium Web Drivers**: Download the appropriate web driver for your browser (e.g., ChromeDriver or GeckoDriver) and add it to your system PATH.
 
